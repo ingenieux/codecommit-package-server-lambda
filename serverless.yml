@@ -9,17 +9,17 @@ package:
  exclude:
    - ./**
  include:
-   - ./bin/cp-**
+   - ./bin/cps-**
 
 functions:
   root:
-    handler: bin/cp-root
+    handler: bin/cps-root
     events:
       - http:
           path: /
           method: GET
   repo:
-    handler: bin/cp-repo
+    handler: bin/cps-repo
     events:
       - http:
           path: /repo/{slug}
