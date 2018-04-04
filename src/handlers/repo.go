@@ -52,10 +52,14 @@ func (r *RepoHandler) Handle(request events.APIGatewayProxyRequest) (events.APIG
 	region := "us-east-1"
 
 	if newRegion, ok := request.PathParameters["region"]; ok {
+		// TODO Validate region
+
 		region = newRegion
 	}
 
 	slug := request.PathParameters["slug"]
+
+	// TODO Validate slug
 
 	// TODO: Move into members
 	protocol := "https"
@@ -65,6 +69,8 @@ func (r *RepoHandler) Handle(request events.APIGatewayProxyRequest) (events.APIG
 			protocol = "ssh"
 		}
 	}
+
+	// TODO validate proto
 
 	sourcePath := fmt.Sprintf("https://console.aws.amazon.com/codecommit/home?region=%s#/repository/%s/browse/", region, slug)
 

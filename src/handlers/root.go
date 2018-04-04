@@ -4,8 +4,6 @@ import (
 	"github.com/aws/aws-lambda-go/events"
 	log "github.com/sirupsen/logrus"
 	"github.com/Jeffail/gabs"
-	"os"
-	"strings"
 )
 
 type RootHandler struct {
@@ -31,24 +29,4 @@ func (r *RootHandler) Handle(request events.APIGatewayProxyRequest) (response ev
 			"Location": "https://github.com/ingenieux/codecommit-package-server-lambda",
 		},
 	}, nil
-}
-
-func getEnvironment() map[string]string {
-	result := map[string]string{}
-
-	for _, nvPair := range os.Environ() {
-		elements := strings.SplitN(nvPair, "=", 2)
-
-		k := elements[0]
-
-		v := ""
-
-		if 2 == len(elements) {
-			v = elements[1]
-		}
-
-		result[k] = v
-	}
-
-	return result
 }
