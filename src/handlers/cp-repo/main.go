@@ -10,7 +10,7 @@ import log "github.com/sirupsen/logrus"
 func main() {
 	log.SetLevel(log.DebugLevel)
 
-	rootHandler := handlers.NewRootHandler()
+	repoHandler  := handlers.NewRepoHandler()
 
-	lambda.Start(rootHandler.Handle)
+	lambda.Start(repoHandler.Handle)
 }

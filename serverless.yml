@@ -9,7 +9,7 @@ package:
  exclude:
    - ./**
  include:
-   - ./bin/fd-**
+   - ./bin/cp-**
 
 functions:
   root:
@@ -17,4 +17,13 @@ functions:
     events:
       - http:
           path: /
+          method: GET
+  repo:
+    handler: bin/cp-repo
+    events:
+      - http:
+          path: /repo/{slug}
+          method: GET
+      - http:
+          path: /{region}/repo/{slug}
           method: GET
