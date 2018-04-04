@@ -43,7 +43,7 @@ $ go get codecommit.ingenieux.io/us-west-2/repo/myrepo
 
 # What about SSH?
 
-You can add ?protocol=ssh into your URLS. 
+You can add ```?protocol=ssh``` into your URLS. 
 
 Be wary that you must also change that in all your source code. 
 
