@@ -21,6 +21,7 @@ requires golang, [gb](https://github.com/constabulary/gb), git, [upx](http://www
 Steps:
 
   * fork / checkout
+  * ```gb vendor restore```
   * Edit src/handlers/repo.go to replace ```codecommit.ingenieux.io``` to your repo (TODO: Fix this)
   * ```bash build.sh && serverless deploy```
   * [on AWS, create path mapping to a domain name and route 53 setup](https://docs.aws.amazon.com/apigateway/latest/developerguide/how-to-edge-optimized-custom-domain-name.html)
