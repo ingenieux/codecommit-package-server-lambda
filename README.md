@@ -16,7 +16,7 @@ And thats it! Keep reading if you want to build your own package server.
 
 ## Installation
 
-requires golang, [gb](https://github.com/constabulary/gb), git, [upx](http://www.upx.org/), [serverless](https://serverless.com), AWS and strip
+requires golang, [gb](https://github.com/constabulary/gb), git, [upx](http://www.upx.org/), [serverless](https://serverless.com), AWS, Hostname on Route 53, ACM SSL Certificate and strip
 
 Steps:
 
