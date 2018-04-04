@@ -1,0 +1,20 @@
+service: cps
+
+provider:
+  name: aws
+  runtime: go1.x
+  endpointType: REGIONAL
+
+package:
+ exclude:
+   - ./**
+ include:
+   - ./bin/fd-**
+
+functions:
+  root:
+    handler: bin/cp-root
+    events:
+      - http:
+          path: /
+          method: GET
