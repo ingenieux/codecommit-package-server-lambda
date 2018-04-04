@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="51724313-1e6c-48cd-83c5-4702fa2f22c4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/handlers/misc.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/build.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/handlers/repo.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/handlers/repo.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/handlers/root.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/handlers/root.go" afterDir="false" />
-    </list>
+    <list default="true" id="51724313-1e6c-48cd-83c5-4702fa2f22c4" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,11 +11,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="root.go" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/handlers/root.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="414">
+                <caret line="23" selection-start-line="23" selection-end-line="23" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -59,6 +57,7 @@
         <option value="$PROJECT_DIR$/src/handlers/repo.go" />
         <option value="$PROJECT_DIR$/src/handlers/misc.go" />
         <option value="$PROJECT_DIR$/src/handlers/root.go" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -254,6 +253,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
           <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="414">
+            <caret line="23" selection-start-line="23" selection-end-line="23" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
