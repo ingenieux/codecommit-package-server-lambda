@@ -1,5 +1,7 @@
 # codecommit-package-server
 
+NOTE: If you want the non-AWS version, see https://github.com/ingenieux/codecommit-package-server
+
 A Golang Package Server for CodeCommit Repositories. Say, if you've got myrepo on us-east-1, you can do this:
 
 ```
